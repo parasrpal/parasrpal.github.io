@@ -7,5 +7,85 @@
 </head>
 <body>
     <h1> Form Tags</h1>
+    <!-- <form action="server.jsp" method="post"> -->
+    <form>
+    <!-- <p> 
+        <input type="text" required placeholder="Enter name" autofocus/>
+    </p> -->
+    <!-- <p>
+        <input type="text" value="paras" readonly>
+    </p> -->
+    <!-- <p>
+        <input type="text" value="paras" disabled>
+    </p> -->
+    <p>
+        <input type="text"  size="100px" maxlength="5">
+    </p>
+    <button>Submit</button>
+    <input type="submit" value="Submit">
+    <input type="image" src="button.png">
+    <input type="button" value="submit">
+    <input type="reset">
+    </form>
+    <fieldset>
+    <form>
+        <p> <input type="text" placeholder="Enter Email"></p>
+        <p> <input type="password" placeholder="password"></p>
+        <button>Login</button>
+    </form>
+    </fieldset>
+    <fieldset>
+    <form>
+        <legend> Registration form</legend>
+        <p> <input type="text" placeholder="Enter Email"></p>
+        <p> <input type="password" placeholder="password"></p>
+        <p> <input type="date"></p>
+        <p> <input type="checkbox">Java</p>
+        <p> <input type="checkbox">python</p>
+        <p> <input type="checkbox">Mern</p>
+        <p>
+            <input type="radio"> Morning Batch
+            <input type="radio"> Evening Batch
+            
+        </p>
+        <p>
+            <input type="radio" name="batch"> Morning Batch
+            <input type="radio" name="batch"> Evening Batch
+        </p>
+        <p> 
+             <select> //slect multiple for mutilselct 
+                <optgroup label="India">
+                <option> Delhi</option>
+                <option> Hyderabad</option>
+                <option> chennai</option>
+                </optgroup>
+                <optgroup label="USA">
+                <option> columbus</option>
+                <option> miami</option>
+                <option> los angles</option>
+                </optgroup>
+                
+            </select>
+        </p>
+        <br><br>
+        <textarea rows="4" cols="50" placeholder="about me"></textarea>
+        <br><br>
+        <input type="date">
+        <br><br><input type="file">
+        <br><br><input type="color">
+        <br> <br>
+        <p> <label for="chk"> Remember me </label> <input type="checkbox"></p>
+        <p> <textarea rows="4" cols="50"></textarea></p>
+        <p> 
+            <input list="country"/>
+            <datalist id="country">
+                <option > india</option>
+                <option > UK</option>
+                <option > USA</option>
+            </datalist>
+        </p>
+        <button>Login</button>
+    </form>
+    </fieldset>
 </body>
 </html>
