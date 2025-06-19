@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Multimedia and images</h1>
+    <h3>Audio file</h3>
+    <audio controls>
+        <source src="boot.mp3"/>
+    </audio>
+    <audio controls>
+        <source src="boot.mp3"/>
+    </audio>
+    <h3> Video file</h3>
+    <video src="st1.mp4" controls></video>
+    <video height="200px" width="300px" src="st1.mp4" controls></video>
+    <video height="200px" width="300px" src="st1.mp4" autoplay muted></video>
+    <video controls>
+        <source src="st1.mp4"/>
+        <!-- <track
+        src="subttile1.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English">
+        
+    </track> -->
+    <h3>Video Files</h3>
+    <video height="200px" width="300px" controls>
+        <source src="st1.mp4">
+            <track
+            src="subtitle1.vtt"
+            kind="subtitles"
+            srclang="en"
+            label="English"/>
+
+
+            <track
+            src="subtitle1.vtt"
+            kind="subtitles"
+            srclang="hi"
+            label="Hindi"/>
+        </track>
+    </video>
+    <h2> images</h2>
+    <img src="button.png" alt="button">
+    
+
+    <svg width="900" height="900">
+        <circle
+        cx="250"
+        cy="250"
+        r = '100'
+        stroke="red"
+        cx="250"
+        fill="pink"/>
+        
+    </svg>
+
+    <img src="button.png" alt="button">
+    <figure>
+        <img src="button.png" alt="butoo">
+        <figcaption> button image is caption less</figcaption>
+    </figure>
+</body>
+</html>
